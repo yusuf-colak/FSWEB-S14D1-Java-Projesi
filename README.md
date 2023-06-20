@@ -26,7 +26,9 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 
 * Rectangle isimli bir sınıf yazınız. Sınıf'ın iki tane sınıf değişkeni olmalı. ```width``` ve ```length``` İki değişkeninde tipini ne seçmeliyiz?
 * width değişkeni de height değişkenide 0 dan küçük set edilirse direkt olarak 0'a set edilmeliler.
-* Rectangle sınıfının 3 methodu olmalı ````getWidth``` width alanını dönmeli. ```getLength``` methodu length fieldini dönmeli ````getArea``` methodu (width*length) i dönmeli.
+* Rectangle sınıfının 3 methodu olmalı ````getWidth``` width alanını dönmeli.  ````getArea``` methodu (width*length) i dönmeli.
+* ```getLength``` methodu length fieldini dönmeli
+* ````getArea``` methodu (width*length) i dönmeli.
 
 * Cuboid isimli bir sınıf daha yazmalısınız. Cuboid sınıfı ile Rectangle sınıfı arasında bir ilişki olmalı.
 * Cuboid sınıfının tek bir sınıf değişkeni var ve adı height. Tipini belirlemek senin görevin. height 0'dan küçükse direkt 0 atanmalı.
