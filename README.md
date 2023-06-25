@@ -1,4 +1,4 @@
-# Java s2g2 - Inheritance
+# Java Inheritance
 
 ### Proje Kurulumu
 
