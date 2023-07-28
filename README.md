@@ -35,6 +35,18 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 * Cuboid sınıfının tek bir constructor methodu olmalı ve 3 parametre almalı. width, length ve height.
 * Cuboid sınıfının iki tane methodu olmalı. ```getHeight``` height değerini dönmeli. ```getVolume``` volume değerinin hesaplamalı ve dönmeli. Volume alan ile yükseklik değerinin çarpımıdır.
 
+### Developer Company
+* Employee isimli bir sınıf oluşturunuz. İçerisinde ```id, name, salary``` sınıf değişkenleri olmalı.
+* Employee sınıfının bir adet ```constructor``` ve her değişkeni için ```getter & setter``` metodları olmalı.
+* Employee sınıfının içerisinde bir adet ```work``` isimli bir metod olmalı ve ```Employee starts to working``` gibi bir mesaj basmalı.
+* Employee sınıfı ile parent child ilişkisi olan 4 sınıf daha yazmalısınız. ```HRManager, JuniorDeveloper, MidDeveloper, SeniorDeveloper```
+* Tüm sınıflarda ```work``` metodu ```Override``` edilmeli. Her bir sınıf için o sınıfa özgü bir mesaj basılmalı ve çalışanın maaşı güncellenmeli.
+* HRManager sınıfında 3 adet ```instance variable``` tanımlanmalı. JuniorDeveloper, MidDeveloper, SeniorDeveloper lar için birer array.
+* HRManager ```addEmployee``` isimli bir metoda sahip olmalı. Bu metod için gerekli  ```Overload``` edilmiş hallerini tanımlamalısınız.
+* Bu metodun amacı JuniorDeveloper gelirse ilgili developeri juniorDevelopers dizisine eklemeli.
+* MidDeveloper gelirse ilgili developeri midDevelopers dizisine eklemeli.
+* SeniorDeveloper gelirse ilgili developeri seniorDevelopers dizisine eklemeli.
+* Bu eklemeler yapılırken ilgili dizide index alanı dolu mu diye bakılmalı. Doluysa içerdeki veri ezilmemeli. Bir uyarı verilmeli. Aynı zamanda indexin hiç var olmadığı durum da göz önünde bulundurulmalı.
 
 
 ### Uygulamayı Test Etmek
